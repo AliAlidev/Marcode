@@ -130,7 +130,7 @@
                 source: function(request, response) {
                     // Fetch data
                     $.ajax({
-                        url: "{{ route('getAutocomplte') }}",
+                        url: "{{ route('getAutocomplete') }}",
                         type: 'post',
                         dataType: "json",
                         data: {
