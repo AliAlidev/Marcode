@@ -21,4 +21,4 @@ Route::middleware('auth')->get('/', function () {
 
 Route::post('/', [searchController::class, 'searchGif' ])->name('search-text');
 Route::post('/search-ajax', [searchController::class, 'searchGifAjax'])->name('search-text-ajax');
-route::post('/aearch-text-autocomplete', [searchController::class,'getAutocomplete'])->name('getAutocomplte');
+route::post('/aearch-text-autocomplete', [searchController::class,'getAutocomplete'])->name('getAutocomplete');
